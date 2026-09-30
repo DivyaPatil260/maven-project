@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: prepaid-service
+  profiles:
+    active: h2
+
+postpaid:
+  service:
+    url: http://localhost:8082
